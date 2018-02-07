@@ -61,7 +61,7 @@
 			{
 				"type": "transform/setContextNodeIdToSelectionAncestor",
 				"data": {
-					"selectionAncestorNodeSpec": "self::*[fonto:dita-class(., 'topic/topic') or self::abstract"
+					"selectionAncestorNodeSpec": "self::*[fonto:dita-class(., 'topic/topic') or self::abstract]"
 				}
 			},
 			{
