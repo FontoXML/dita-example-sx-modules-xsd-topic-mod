@@ -239,7 +239,7 @@ define([
 		//     The <section> element represents an organizational division in a topic. Sections are used to
 		//     organize subsets of information that are directly related to the topic. For example, the titles
 		//     Reference Syntax, Example and Properties might represent section-level discourse within a topic
-		//     about a command-line processâ€”the content in each section relates uniquely to the subject of that
+		//     about a command-line process—the content in each section relates uniquely to the subject of that
 		//     topic. Multiple sections within a single topic do not represent a hierarchy, but rather peer
 		//     divisions of that topic. Sections cannot be nested. A section may have an optional title. Category:
 		//     Topic elements
@@ -325,7 +325,7 @@ define([
 		configureAsFrame(sxModule, 'self::topic[parent::*[fonto:dita-class(., "topic/topic")]]', undefined, {
 			defaultTextContainer: 'body',
 			blockFooter: [
-				createRelatedNodesQueryWidget('./related-links]')
+				createRelatedNodesQueryWidget('./related-links')
 			],
 			blockHeaderLeft: [
 				createMarkupLabelWidget()
